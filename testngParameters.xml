@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+	<test name="Test1">
+
+		<parameter name="MyName" value="Automation"></parameter>
+
+		<classes>
+			<class name="testNgParameters.testNgParametersDemo"></class>
+		</classes>
+
+	</test>
+</suite>
+
+<!-- 
+ @Parameters annotation can be placed on any method that already has following annotations 
+	 @Test 
+	 @Before/After 
+	 @Factory 
+  
+ @Parameters annotation can also be placed class constructor In testng.xml you can put parameters under suite or test tag 
+ 
+ If two parameters have the same name, it's the one defined in test that has precedence. 
+ This is convenient if you need to specify a parameter applicable to all your tests and override 
+ its value only for certain tests. 
+
+
+ -->

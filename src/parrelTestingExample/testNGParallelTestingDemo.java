@@ -16,32 +16,32 @@ public class testNGParallelTestingDemo {
 	@Test
 	public void test1() throws Exception {
 		System.out.println("Inside Test_1 Block || " + Thread.currentThread().getName());
-		System.setProperty("webdriver.chrome.driver", chrome);
+	/*	System.setProperty("webdriver.chrome.driver", chrome);
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("http://google.com");
 		Thread.sleep(2000);
 		System.out.println("Inside Test_1 Block ::: ENDED || " + Thread.currentThread().getName());
-		driver.quit();
+		driver.quit();*/
 
 	}
 
 	@Test
 	public void test2() throws Exception {
 		System.out.println("Inside Test_2 Block || " + Thread.currentThread().getName());
-		System.setProperty("webdriver.gecko.driver", firefox);
+	/*	System.setProperty("webdriver.gecko.driver", firefox);
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("http://google.com");
 		Thread.sleep(2000);
 		System.out.println("Inside Test_2 Block ::: ENDED || " + Thread.currentThread().getName());
-		driver.quit();
+		driver.quit();*/
 	}
 
 	@Test
 	public void test3() throws Exception {
 		System.out.println("Inside Test_3 Block -> ||  " + Thread.currentThread().getName());
-		System.out.println("Inside Test_3 Block ::: ENDED || " + Thread.currentThread().getName());
-		driver.quit();
+	/*	System.out.println("Inside Test_3 Block ::: ENDED || " + Thread.currentThread().getName());
+		driver.quit();*/
 	}
 }
