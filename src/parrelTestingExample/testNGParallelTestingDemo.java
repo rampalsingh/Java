@@ -38,6 +38,6 @@ public class testNGParallelTestingDemo {
 
 	@Test
 	public void test3() throws Exception {
-		System.out.println("Inside Test_3 Block ||  " + Thread.currentThread().getId());
+		System.out.println("Inside Test_3 Block -> ||  " + Thread.currentThread().getId());
 	}
 }
