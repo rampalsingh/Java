@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="14801" started-at="2018-09-25T20:45:31Z" finished-at="2018-09-25T20:45:46Z">
+  <suite name="Suite1" duration-ms="49" started-at="2018-09-26T11:41:26Z" finished-at="2018-09-26T11:41:26Z">
     <groups>
+      <group name="smoke">
+        <method signature="testNgGroupingDemo.test2()[pri:0, instance:testNgGrouping.testNgGroupingDemo@1e3c938]" name="test2" class="testNgGrouping.testNgGroupingDemo"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="testNgGroupingDemo.test1()[pri:0, instance:testNgGrouping.testNgGroupingDemo@1e3c938]" name="test1" class="testNgGrouping.testNgGroupingDemo"/>
+        <method signature="testNgGroupingDemo.test2()[pri:0, instance:testNgGrouping.testNgGroupingDemo@1e3c938]" name="test2" class="testNgGrouping.testNgGroupingDemo"/>
+      </group> <!-- sanity -->
     </groups>
-    <test name="Test1" duration-ms="14801" started-at="2018-09-25T20:45:31Z" finished-at="2018-09-25T20:45:46Z">
-      <class name="parrelTestingExample.testNGParallelTestingDemo">
-        <test-method status="PASS" signature="test2()[pri:0, instance:parrelTestingExample.testNGParallelTestingDemo@2ac273d3]" name="test2" duration-ms="13384" started-at="2018-09-25T20:45:31Z" finished-at="2018-09-25T20:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:parrelTestingExample.testNGParallelTestingDemo@2ac273d3]" name="test1" duration-ms="14730" started-at="2018-09-25T20:45:31Z" finished-at="2018-09-25T20:45:46Z">
+    <test name="Test1" duration-ms="49" started-at="2018-09-26T11:41:26Z" finished-at="2018-09-26T11:41:26Z">
+      <class name="testNgGrouping.testNgGroupingDemo">
+        <test-method status="PASS" signature="test1()[pri:0, instance:testNgGrouping.testNgGroupingDemo@1e3c938]" name="test1" duration-ms="11" started-at="2018-09-26T11:41:26Z" finished-at="2018-09-26T11:41:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:parrelTestingExample.testNGParallelTestingDemo@2ac273d3]" name="test3" duration-ms="3" started-at="2018-09-25T20:45:45Z" finished-at="2018-09-25T20:45:45Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:testNgGrouping.testNgGroupingDemo@1e3c938]" name="test2" duration-ms="2" started-at="2018-09-26T11:41:26Z" finished-at="2018-09-26T11:41:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-      </class> <!-- parrelTestingExample.testNGParallelTestingDemo -->
+        </test-method> <!-- test2 -->
+      </class> <!-- testNgGrouping.testNgGroupingDemo -->
     </test> <!-- Test1 -->
   </suite> <!-- Suite1 -->
 </testng-results>
