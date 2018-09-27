@@ -1,4 +1,4 @@
-package Prog;
+package programs;
 
 public class z_Rough {
 

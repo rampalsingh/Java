@@ -1,4 +1,4 @@
-package Prog;
+package programs;
 //http://javaconceptoftheday.com/java-interview-programs-with-solutions/
 public class C_How_do_you_remove_all_white_spaces_from_string_java {
 

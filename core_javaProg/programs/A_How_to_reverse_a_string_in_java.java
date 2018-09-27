@@ -1,4 +1,4 @@
-package Prog;
+package programs;
 //http://javaconceptoftheday.com/java-interview-programs-with-solutions/
 public class A_How_to_reverse_a_string_in_java {
 	public static void main(String[] args) {
