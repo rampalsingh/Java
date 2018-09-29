@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="49" started-at="2018-09-26T11:41:26Z" finished-at="2018-09-26T11:41:26Z">
+  <suite name="Default suite" duration-ms="85" started-at="2018-09-26T21:20:01Z" finished-at="2018-09-26T21:20:01Z">
     <groups>
-      <group name="smoke">
-        <method signature="testNgGroupingDemo.test2()[pri:0, instance:testNgGrouping.testNgGroupingDemo@1e3c938]" name="test2" class="testNgGrouping.testNgGroupingDemo"/>
-      </group> <!-- smoke -->
-      <group name="sanity">
-        <method signature="testNgGroupingDemo.test1()[pri:0, instance:testNgGrouping.testNgGroupingDemo@1e3c938]" name="test1" class="testNgGrouping.testNgGroupingDemo"/>
-        <method signature="testNgGroupingDemo.test2()[pri:0, instance:testNgGrouping.testNgGroupingDemo@1e3c938]" name="test2" class="testNgGrouping.testNgGroupingDemo"/>
-      </group> <!-- sanity -->
+      <group name="abc">
+        <method signature="testNgDependencyDemo.test3()[pri:0, instance:testNgDependency.testNgDependencyDemo@5ce81285]" name="test3" class="testNgDependency.testNgDependencyDemo"/>
+        <method signature="testNgDependencyDemo.test4()[pri:0, instance:testNgDependency.testNgDependencyDemo@5ce81285]" name="test4" class="testNgDependency.testNgDependencyDemo"/>
+      </group> <!-- abc -->
     </groups>
-    <test name="Test1" duration-ms="49" started-at="2018-09-26T11:41:26Z" finished-at="2018-09-26T11:41:26Z">
-      <class name="testNgGrouping.testNgGroupingDemo">
-        <test-method status="PASS" signature="test1()[pri:0, instance:testNgGrouping.testNgGroupingDemo@1e3c938]" name="test1" duration-ms="11" started-at="2018-09-26T11:41:26Z" finished-at="2018-09-26T11:41:26Z">
+    <test name="Default test" duration-ms="85" started-at="2018-09-26T21:20:01Z" finished-at="2018-09-26T21:20:01Z">
+      <class name="testNgDependency.testNgDependencyDemo">
+        <test-method status="PASS" signature="test4()[pri:0, instance:testNgDependency.testNgDependencyDemo@5ce81285]" name="test4" duration-ms="17" started-at="2018-09-26T21:20:01Z" finished-at="2018-09-26T21:20:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:testNgGrouping.testNgGroupingDemo@1e3c938]" name="test2" duration-ms="2" started-at="2018-09-26T11:41:26Z" finished-at="2018-09-26T11:41:26Z">
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:testNgDependency.testNgDependencyDemo@5ce81285]" name="test3" duration-ms="4" started-at="2018-09-26T21:20:01Z" finished-at="2018-09-26T21:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testNgDependency.testNgDependencyDemo@5ce81285]" name="test2" duration-ms="3" depends-on-groups="abc" started-at="2018-09-26T21:20:01Z" finished-at="2018-09-26T21:20:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-      </class> <!-- testNgGrouping.testNgGroupingDemo -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite1 -->
+      </class> <!-- testNgDependency.testNgDependencyDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
