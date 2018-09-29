@@ -7,6 +7,7 @@ public class testNgDependencyDemo {
 //	@Test(dependsOnMethods = { "test2", "test3" })
 	public void test1() {
 		System.out.println("I am inside Test_1");
+		
 	}
 
 	@Test(dependsOnGroups = {"abc"})
