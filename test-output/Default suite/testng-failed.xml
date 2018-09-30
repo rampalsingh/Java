@@ -5,7 +5,11 @@
     <classes>
       <class name="parrelTestingExample.testNGParallelTestingDemo">
         <methods>
+<<<<<<< HEAD
           <include name="test1"/>
+=======
+          <include name="test2"/>
+>>>>>>> branch 'master' of https://github.com/rampalsingh/Java.git
         </methods>
       </class> <!-- parrelTestingExample.testNGParallelTestingDemo -->
     </classes>
