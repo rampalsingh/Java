@@ -6,4 +6,3 @@
  *
  */
 @org.testng.annotations.Ignore
-package testNgIgnore;
